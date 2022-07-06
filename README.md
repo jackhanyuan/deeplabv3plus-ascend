@@ -7,10 +7,6 @@ You can run demo by `python detect_deeplabv3plus_ascend.py`.
 
 ## Export om model 
 (1) Training your Deeplabv3+ model by [bubbliiiing/deeplabv3-plus-pytorch](https://github.com/bubbliiiing/deeplabv3-plus-pytorch). Then export the pytorch model to onnx format.
-```bash
-# in deeplabv3-plus-pytorch root path, exporting pth model to onnx model.
-python export_onnx.py
-```
 
 (2) On the Huawei Ascend platform, using the `atc` tool convert the onnx model to om model.
 ```bash
