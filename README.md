@@ -5,6 +5,16 @@ All programs passed the test on Huawei `Atlas 300I` inference card (`Ascend 310 
 
 You can run demo by `python detect_deeplabv3plus_ascend.py`.
 
+## Environments
+In addition to the Ascend environments with ATC tools, CANN(pyACL), and Python, you will need the following python packages.
+
+```txt
+opencv_python
+Pillow
+onnx
+torch
+```
+
 ## Export om model 
 (1) Training your Deeplabv3+ model by [bubbliiiing/deeplabv3-plus-pytorch](https://github.com/bubbliiiing/deeplabv3-plus-pytorch). Then export the pytorch model to onnx format.
 ```bash
